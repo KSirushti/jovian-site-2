@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> XYZ| Jobs</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<div>
+    <div id="nav-bar">
+        <i class="fa-solid fa-star fa-2xl" style="color: #ffffff;"></i>
+    </div>
+    <img id="banner" src="../Images/banner.jpg" alt="Banner for my image" height="300">
+
+
+
+    <h1>ABOUT XYZ</h1>
+    <div class="wrapper">
+        <div id="about">
+            <div id="abt-desc">
+                <p style="margin-top: 1%;">
+                    XYZ is an innovative tech company specializing in developing cutting-edge software solutions
+                    tailored for businesses of all sizes. Founded in 2015, the company focuses on creating intuitive and
+                    efficient applications that streamline operations, enhance productivity, and foster growth. With a
+                    dynamic team of experts in software development, AI, and user experience design, XYZ is
+                    dedicated to delivering high-quality products and exceptional customer service, making it a trusted
+                    partner for companies looking to stay ahead in the digital age.
+                </p>
+
+                <p>Links if u want to add
+                <ol>
+                    <li>
+                        <a href="www.google.com">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="www.google.com">
+                            Contact
+                        </a>
+                    </li>
+
+                </ol>
+                </p>
+            </div>
+            <div id="abt-team">
+                <img id="team" src="../Images/team.jpg" alt="Team Wrok is a dream Work">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <h2>Job Opportunities</h2>
+    <div class="wrapper">
+        <div id="jobs">
+            <table id="jobs-table" style="width:100%">
+                <tr class="jobs-header-row">
+                    <th style="width: 35%;">Job Title</th>
+                    <th style="width: 25%;">Location</th>
+                    <th>Salary</th>
+                    <th style="width: 20%;">Posted on</th>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Frontend Developer </td>
+                    <td>Chennai, India</td>
+                    <td>₹20,00,000</td>
+                    <td>Jan 15, 2024</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Backend Developer</td>
+                    <td>Delhi, India</td>
+                    <td>₹25,00,000</td>
+                    <td>Dec 15,2023</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Data Scientist</td>
+                    <td>Remote</td>
+                    <td>₹32,00,000</td>
+                    <td>Oct 20, 2023</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Machine Learning Engineer</td>
+                    <td>Work From Home</td>
+                    <td>₹10,00,000</td>
+                    <td>Sep 19,2022</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+
+
+    <div class="application">
+        <h2>Send your Application</h2>
+        <form id="application-form" action="https://formbold.com/s/6M8L5" method="post" enctype="multipart/form-data">
+            <div id="form-group">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="Name">
+            </div>
+
+            <div id="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email address" required placeholder="EmailId">
+            </div>
+
+            <div id="form-group">
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="Phone number" maxlength="14" required placeholder="+91 **********">
+            </div>
+
+            <div id="form-group">
+                <label for="DOB">DOB</label><br>
+                <input type="date" id="DOB" name="DOB" required>
+            </div>
+            <div id="form-group">
+                <label for="Position">Position Applied</label><br>
+                <select id="Position" name="Position Applied" required>
+                    <option value="">Select Position</option>
+                    <option value="Frontend">Frontend Developer</option>
+                    <option value="Backend">Backend Developer</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                    <option value="ML Engineer">Machine Learning Engineer</option>
+                </select><br>
+            </div>
+
+            <div id="form-group">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="Resume" required accept=".pdf,.doc,.docx">
+            </div>
+
+            <div id="form-group">
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea id="coverletter" name="coverletter" rows="5"
+                    placeholder="Explain why we should hire you?"></textarea>
+            </div>
+
+            <div id="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div id="form-group"><br>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <br>
+    <div id="footer">
+        <ul id="footer-links">
+            <li id="special-link">
+                <a href="www.google.com" target="_blank"></a>
+                Courses
+                </a>
+            </li>
+            <li id="special-link">
+                <a href="www.google.com" target="_blank">
+                    Youtube
+                </a>
+            </li>
+            <li id="special-link">
+                <a href="www.google.com" target="_blank">
+                    Linkedin
+                </a>
+            </li>
+        </ul>
+        <span id="copyright">© 2024 Company</span>
+    </div>
+
+    </body>
+
+</html>
